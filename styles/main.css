@@ -61,6 +61,7 @@ footer.page-footer {
   margin: 0;
 }
 
+/*TECHNOLOGY SECTION*/
 #technology {
   /*width: 100%;*/
   background: #ccc;
@@ -76,10 +77,62 @@ footer.page-footer {
   width: 60px;
 }
 
+/*PROJECTS*/
+.techUsedDiv{
+  margin: 0 0;
+}
+.techUsedIcon {
+  margin: auto;
+  height: 30px;
+}
+
+
+/*TRAIL TRACKER PROJECT - PARALLAX*/
+
+#trailTracker .section {
+  margin: 0 1%;
+  border: 1px rgba(255,255,255,.5) solid;
+}
+
+#trailTracker h4 {
+    /*font-family: 'Chelsea Market', cursive;*/
+    color: #ffca28; /*amber lighten-1*/
+    text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
+}
+
+#trailTracker div.projDescr {
+  margin-bottom: 5px;
+}
+
+#trailTracker h5 {
+    /*font-family: 'Harmattan', sans-serif;*/
+    color: white; /*amber lighten-1*/
+    text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
+}
+
+#trailTracker p {
+  /*text-align: center;*/
+  /*font-family: 'Harmattan', sans-serif;*/
+  color: white;
+  text-shadow: 1px 1px 1px #3e2723; /*brown darken-4*/
+  /*font-size: 10px;*/
+}
+
+/*$primary-color: #9e9d24; // lime darken-3
+$secondary-color: #ffca28; //amber lighten-1
+$tertiary-color: #3e2723; //brown darken-4
+
+$primary-font: 'Chelsea Market', cursive;
+$secondary-font: 'Harmattan', sans-serif;
+$tertiary-font: 'Rancho', cursive;
+*/
+
+/*CREATIVE SECTION*/
 #creative {
   background-color: #eee;
 }
 
+/*CONTACT SECTION*/
 #contact {
   background-color: #222;
   color: #aaa;
