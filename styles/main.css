@@ -23,13 +23,6 @@ p {
   width: 100%;
 }
 
-#project2 {
-  background-image: url("/img/testbg_utah1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -44,11 +37,6 @@ p {
   #index-banner .section {
     top: 0;
   }
-  #project2 {
-  background-image: url("/img/testbg_utah1.jpg");
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  }
 }
 
 .icon-block {
@@ -62,7 +50,7 @@ footer.page-footer {
   margin: 0;
 }
 
-/*TECHNOLOGY SECTION*/
+/*TECHNOLOGY SECTION ---------------------*/
 #technology {
   /*width: 100%;*/
   color: #ccc;
@@ -78,7 +66,15 @@ footer.page-footer {
   width: 60px;
 }
 
-/*PROJECTS*/
+/*PROJECTS ------------------------*/
+div.projTitle {
+  margin: 10px 0 0 0;
+}
+
+div.projDescr {
+  margin-bottom: 5px;
+}
+
 .techUsedDiv{
   margin: 0 0;
 }
@@ -88,20 +84,21 @@ footer.page-footer {
 }
 
 
+
 /*TRAIL TRACKER PROJECT - PARALLAX*/
+
 
 #trailTracker h4 {
   color: #ffca28; /*amber lighten-1*/
   text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
-}
-
-#trailTracker div.projDescr {
-  margin-bottom: 5px;
+  background-color: rgba(115,114,27,0.4);
+  border: 1px solid #ffca28;
+  border-radius: 5px;
 }
 
 #trailTracker h5 {
-  color: white; /*amber lighten-1*/
-  text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
+  color: white;
+  text-shadow: 1px 1px 0 #9e9d24;
 }
 
 #trailTracker p {
@@ -109,13 +106,101 @@ footer.page-footer {
   text-shadow: 1px 1px 1px #3e2723; /*brown darken-4*/
 }
 
-/*CREATIVE SECTION*/
+/*REBOUND PROJECT ----------------------------*/
+
+#rebound h4 {
+  color: rgb(0, 151, 156);
+  background-color: rgba(255,255,255,0.4);
+  text-shadow: 1px 1px 0 #000;
+  border: 1px solid rgb(0, 151, 156);
+  border-radius: 5px;
+
+}
+
+#rebound h5 {
+  color: white;
+  text-shadow: 1px 1px 0 rgb(0, 151, 156);
+}
+
+#rebound p {
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0, 112, 116);
+}
+
+#rebound a {
+  background-color: rgb(0, 151, 156);
+  color: white;
+}
+
+/*TEAM TIMER PROJECT ---------------------------*/
+
+#teamTimer h4 {
+  color: #333;
+  background-color: rgba(255,255,255,0.4);
+  text-shadow: 1px 1px 0 white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+#teamTimer h5 {
+  color: white;
+  text-shadow: 1px 1px 0 grey;
+}
+
+#teamTimer p {
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#teamTimer a.demo {
+  background-color: white;
+  color: grey;
+}
+
+#teamTimer a.git {
+  background-color: grey;
+  color: white;
+}
+
+/*PROJECT4 ------------------------------------*/
+
+#project4 h4 {
+  color: #333;
+  background-color: rgba(255,255,255,0.4);
+  text-shadow: 1px 1px 0 white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+#project4 h5 {
+  color: white;
+  text-shadow: 1px 1px 0 grey;
+}
+
+#project4 p {
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#project4 a.demo {
+  background-color: white;
+  color: grey;
+}
+
+#project4 a.git {
+  background-color: grey;
+  color: white;
+}
+
+/*CREATIVE SECTION -----------------------------*/
 #creative {
   color: #ccc;
   background: #222;
 }
 
-/*CONTACT SECTION*/
+/*CONTACT SECTION ------------------------------*/
 #contact {
   background-color: #111;
   color: #aaa;
