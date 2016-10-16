@@ -1,3 +1,7 @@
+p {
+	font-size: 1.1rem;
+}
+
 .arduinoBg {
 	background-color: rgb(0, 151, 156);
 	color: #ddd;
@@ -6,6 +10,7 @@
 }
 
 #reboundIntro .section {
+	width: 100%;
 	padding: 0;
 }
 
@@ -28,6 +33,7 @@
 }
 
 #player2 .section {
+	width: 100%;
 	padding: 0;
 }
 
