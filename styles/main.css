@@ -67,6 +67,12 @@ footer.page-footer {
 }
 
 /*PROJECTS ------------------------*/
+
+div.projDivider {
+  height: 3px;
+  padding: 0;
+}
+
 div.projTitle {
   margin: 10px 0 0 0;
 }
@@ -104,6 +110,11 @@ div.projDescr {
 #trailTracker p {
   color: white;
   text-shadow: 1px 1px 1px #3e2723; /*brown darken-4*/
+}
+
+#trailTracker a {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*REBOUND PROJECT ----------------------------*/
@@ -156,11 +167,15 @@ div.projDescr {
 #teamTimer a.demo {
   background-color: white;
   color: grey;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #teamTimer a.git {
   background-color: grey;
   color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*PROJECT4 ------------------------------------*/
@@ -187,11 +202,15 @@ div.projDescr {
 #project4 a.demo {
   background-color: white;
   color: grey;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #project4 a.git {
   background-color: grey;
   color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*CREATIVE SECTION -----------------------------*/

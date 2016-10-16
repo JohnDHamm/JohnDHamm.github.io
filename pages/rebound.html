@@ -16,7 +16,7 @@
 	<!-- navbar -->
 	<nav class="grey darken-4" role="navigation">
 		<div class="nav-wrapper container">
-			<a id="logo-container" href="../" class="brand-logo center">John D. Hamm</a>
+			<a id="logo-container" href="../" class="brand-logo center reboundNav">John D. Hamm</a>
 <!-- 			<ul class="right hide-on-med-and-down">
 				<li><a href="#technology">Technology</a></li>
 				<li><a href="#trailTracker">Projects</a></li>
@@ -26,29 +26,103 @@
 		</div>
 	</nav>
 
-	<div id="vimeo1">
+	<div id="reboundIntro" class="arduinoBg valign-wrapper">
 		<div class="section">
-			<!-- <div class="container"> -->
+			<div class="container">
 
-				<div class="hide-on-med-and-up">
-					<div class="row center">
-						<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="320" height="146" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="row center no-btm-margin">
+					<div class="col s8 offset-s2 m6 offset-m3 l4 offset-l4">
+						<h4 class="header center">Rebound</h4>
 					</div>
 				</div>
 
-				<div class="hide-on-small-only hide-on-large-only">
-					<div class="row center">
-						<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="600" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="row center no-btm-margin">
+					<h5 class="header center col s12 light">an experimental Arduino game</h5>
+					<div class="col s12 m8 offset-m2 no-top-margin">
+						<p class="light center-align">This is where I will talk about the project...So, after learning a bit about Arduino programming and brushing up on my electronics, I decided to create a little game. A simple, but fun test of rhythm and timing. Watch the lights and press the button…but not too early or too late, or you get shocked by 120 volts! (not really, that feature hasn’t been implemented…yet.)</p>
 					</div>
 				</div>
 
-				<div class="hide-on-med-and-down">
-					<div class="row center">
-						<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="992" height="451" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="row center no-btm-margin">
+					<div class="col s12 l6">
+						<img class="responsive-img center-align" src="../img/rebound/rebound_circuit.jpg"">
+						<p class="italicText light no-top-margin">Circuit Diagram: Arduino, shift register, main game board</p>
+					</div>
+					<div class="col s12 l6">
+						<img class="responsive-img center-align" src="../img/rebound/rebound_build07_serialFeedback.jpg"">
+						<p class="italicText light no-top-margin">Use of the serial output (USB) back to the PC to monitor the player interaction, ball speed, and score.</p>
 					</div>
 				</div>
 
-			<!-- </div> -->
+				<div class="row center">
+					<a class="italicText white-text" target="_blank" href="../img/rebound/rebound_build07_code.pdf">Click here to download a PDF of the Arduino code</a>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div id="vimeo1">
+		<div class="section black">
+
+			<div class="video-container">
+		  	<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="1584" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		  </div>
+
+			<!-- <div class="hide-on-med-and-up">
+				<div class="row center">
+					<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="320" height="146" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="hide-on-small-only hide-on-large-only">
+				<div class="row center">
+					<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="600" height="273" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="hide-on-med-and-down">
+				<div class="row center">
+					<iframe src="https://player.vimeo.com/video/124266613?color=00979c&portrait=0" width="992" height="451" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div> -->
+
+		</div>
+	</div>
+
+	<div id="player2" class="arduinoBg valign-wrapper">
+		<div class="section">
+			<div class="container">
+
+				<div class="row center no-btm-margin">
+					<h5 class="header center col s12 light no-btm-margin">2 player version:</h5>
+					<div class="col s12 m8 offset-m2 no-top-margin">
+						<p class="light center-align">Still some minor bugs to be worked out (danged Arduino loop structure!), and some bells and whistles to add…but here’s a first look at the 2 player version of “Rebound”. For this version, the better your timing, the faster you shoot the “ball” back at your opponent. Bad timing slows it down, giving the enemy a better chance at firing it back at you quicker. First player to win 3 rounds is the victor!</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="vimeo2">
+		<div class="section black">
+
+			<div class="video-container">
+		  	<iframe src="https://player.vimeo.com/video/127756164?color=00979c&portrait=0" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		  </div>
+
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div class="section">
+			<div class="container center-align">
+				<a href="../"><p class="light">back to home</p></a>
+			</div>
 		</div>
 	</div>
 
@@ -62,13 +136,8 @@
 
 
 
-
-
-
-
-
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 	<!-- <script src="js/materialize.js"></script> -->
-	<!-- <script src="js/init.js"></script> -->
+	<!-- <script src="../js/init.js"></script> -->
 </body>
 </html>
