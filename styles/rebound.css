@@ -14,13 +14,13 @@ p {
 	padding: 0;
 }
 
-.no-btm-margin {
+/*.no-btm-margin {
 	margin-bottom: 0;
 }
 
 .no-top-margin {
 	margin-top: 0;
-}
+}*/
 
 .linkBtn {
 	background: rgba(255,255,255,.2);
@@ -28,22 +28,14 @@ p {
 	padding-left: 0;
   padding-right: 0;
 }
-.italicText {
+
+/*.italicText {
 	font-style: italic;
-}
+}*/
 
 #player2 .section {
 	width: 100%;
 	padding: 0;
 }
 
-#footer {
-  background-color: #111;
-  /*color: #aaa;*/
-}
 
-#footer p {
-	margin: 0;
-  color: #aaa;
-
-}

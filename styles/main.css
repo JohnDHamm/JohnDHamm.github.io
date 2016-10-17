@@ -226,4 +226,25 @@ div.projDescr {
   color: #aaa;
 }
 
+/*COMMON FOR ALL PAGES*/
+.no-btm-margin {
+  margin-bottom: 0;
+}
 
+.no-top-margin {
+  margin-top: 0;
+}
+
+.italicText {
+  font-style: italic;
+}
+
+.pagesFooter {
+  background-color: #111;
+  /*color: #aaa;*/
+}
+
+.pagesFooter p {
+  margin: 0;
+  color: #aaa;
+}
