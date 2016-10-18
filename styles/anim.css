@@ -1,17 +1,43 @@
-.eaaTitle {
-	background-color: grey;
+#animIntro .section {
+	width: 100%;
+	padding-bottom: 10px;
 }
+
+.animTitleOdd {
+	background-color: #eee
+}
+
+.animTitleEven {
+	background-color: #fff;
+}
+
+h6.animDesc {
+
+}
+
+h6.animTasks {
+	font-style: italic;
+	/*padding: 0 auto;*/
+}
+
+
 
 .eaaBody {
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 }
 
-#animIntro {
-
-}
 
 .animBG {
 
 }
 
+div.active {
+	/*background-color: yellow;*/
+	color: darkred;
+	font-weight: bold;
+	border: 2px solid darkred;
+}
 
+img {
+	margin: 5px 0;
+}
