@@ -1,6 +1,15 @@
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+
 #animIntro .section {
 	width: 100%;
 	padding-bottom: 10px;
+	background-image: url('/img/anim/EAA/SesameStreet_ElmosAlphabetChallenge_04_GuitarHero_04751.jpg');
+	background-size: cover;
+	color: #eee;
+	text-shadow: 1px 1px #111;
 }
 
 .animTitleOdd {
@@ -11,28 +20,12 @@
 	background-color: #fff;
 }
 
-h6.animDesc {
-
-}
 
 h6.animTasks {
 	font-style: italic;
-	/*padding: 0 auto;*/
-}
-
-
-
-.eaaBody {
-	/*background-color: #ddd;*/
-}
-
-
-.animBG {
-
 }
 
 div.active {
-	/*background-color: yellow;*/
 	color: darkred;
 	font-weight: bold;
 	border: 2px solid darkred;

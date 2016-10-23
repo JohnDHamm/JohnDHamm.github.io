@@ -1,3 +1,8 @@
+/*body {
+  font-family: 'Karla', sans-serif;
+}*/
+
+
 nav ul a,
 nav .brand-logo {
   color: #ffe57f;
@@ -50,6 +55,9 @@ footer.page-footer {
   margin: 0;
 }
 
+/*INTRO SECTION------------------*/
+
+
 /*TECHNOLOGY SECTION ---------------------*/
 #technology {
   /*width: 100%;*/
@@ -71,6 +79,10 @@ footer.page-footer {
 #projectsHeader {
   color: #444;
   background: #ffe57f;
+}
+
+#projectsHeader h4 {
+  margin-top: 8px;
 }
 
 div.projDivider {
@@ -224,10 +236,38 @@ div.projDescr {
   background: #222;
 }
 
+#creative h5 {
+  margin-bottom: 20px;
+}
+
+.animImg {
+  width: 100%;
+}
+
+#creative a {
+  color: #777;
+}
+
+#creative a:hover {
+  color: #ffe57f;
+}
+
 /*CONTACT SECTION ------------------------------*/
 #contact {
   background-color: #111;
   color: #aaa;
+}
+
+#contact p {
+  margin: 5px 0;
+}
+
+#contact a {
+  color: #777;
+}
+
+#contact a:hover {
+  color: #ffe57f;
 }
 
 /*COMMON FOR ALL PAGES*/
