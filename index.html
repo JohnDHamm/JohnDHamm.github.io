@@ -7,8 +7,10 @@
 	<title>John D. Hamm - software developer</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Harmattan|Rancho" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 	<link rel="stylesheet" href="/styles/main.css">
+	<script src="https://use.fontawesome.com/95bb411b9e.js"></script>
 </head>
 <body>
 
@@ -18,15 +20,15 @@
 			<a id="logo-container" href="#" class="brand-logo">John D. Hamm</a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="#technology">Technology</a></li>
-				<li><a href="#trailTracker">Projects</a></li>
-				<li><a href="#creative">Creative</a></li>
+				<li><a href="#projectsHeader">Projects</a></li>
+				<li><a href="#creative">Animation</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 
 			<ul id="nav-mobile" class="side-nav">
 				<li><a href="#technology">Technology</a></li>
-				<li><a href="#trailTracker">Projects</a></li>
-				<li><a href="#creative">Creative</a></li>
+				<li><a href="#projectsHeader">Projects</a></li>
+				<li><a href="#creative">Animation</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -34,13 +36,16 @@
 	</nav>
 
 	<!-- INTRO section -->
-	<div id="index-banner" class="parallax-container">
-		<div class="section no-pad-bot">
+	<div id="index-banner" class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot valign">
 			<div class="container">
-				<br><br>
-				<h3 class="header center indigo-text text-darken-3">Me</h3>
-				<div class="row center">
-					<h5 class="header col s12 light indigo-text text-darken-3">This is where I'll put an intro with name, "software developer", maybe a short description</h5>
+				<!-- <br><br> -->
+				<!-- <h3 class="header center indigo-text text-darken-3">Me</h3> -->
+				<div class="row">
+					<div class="col m3 hide-on-small-only">
+						<img src="/img/square_headshot.jpg" alt="" class="circle responsive-img">
+					</div>
+					<h5 class="header center-align col s12 m8 offset-m1 light indigo-text text-darken-3">This is where I'll put an intro with name, "software developer", maybe a short description</h5>
 				</div>
 				<br><br>
 
@@ -194,10 +199,12 @@
 				</div>
 
 				<div class="row center">
-					<div class="col s2 offset-s4 m4 offset-m4 techUsedDiv valign-wrapper">
+					<div class="col s8 offset-s2 m4 offset-m4 techUsedDiv valign-wrapper">
 						<img src="/img/techIcons/angular.png" alt="" class="valign techUsedIcon">
-						<img src="/img/techIcons/sass.png" alt="" class="valign techUsedIcon">
 						<img src="/img/techIcons/firebase.png" alt="" class="valign techUsedIcon">
+						<img src="/img/techIcons/google-maps-logo.png" alt="" class="valign techUsedIcon">
+						<img src="/img/techIcons/weatherUnderground.jpg" alt="" class="valign techUsedIcon">
+						<img src="/img/techIcons/sass.png" alt="" class="valign techUsedIcon">
 					</div>
 				</div>
 
@@ -274,19 +281,20 @@
 				</div>
 
 				<div class="row projDescr">
-					<h5 class="header center col s12 light">Multiple athlete lap timing app</h5>
-					<p class="col s12 m8 offset-m2 light center-align">My NSS back-end capstone project, this app was created for a youth triathlon team that I help coach. Record workouts for multiple athletes simultaneously and compare results.</p>
+					<h5 class="header center col s12 light">Athlete timing and analysis app</h5>
+					<p class="col s12 m8 offset-m2 light center-align">My NSS back-end capstone project, this app was created for a youth triathlon team that I help coach. Record workouts for multiple athletes simultaneously and analyze workouts in multiple ways.</p>
+					<h5 class="header center col s12 light">App coming soon.</h5>
 				</div>
 
-				<div class="row center">
+				<!-- <div class="row center">
 					<div class="col s2 offset-s4 m4 offset-m4 techUsedDiv valign-wrapper">
 						<img src="/img/techIcons/angular.png" alt="" class="valign techUsedIcon">
 						<img src="/img/techIcons/sass.png" alt="" class="valign techUsedIcon">
 						<img src="/img/techIcons/firebase.png" alt="" class="valign techUsedIcon">
 					</div>
-				</div>
+				</div> -->
 
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col s4 offset-s2 m2 offset-m4">
 						<div class="collection">
 				    	<a class="collection-item center-align demo linkBtn" target="_blank" href="https://trailtracker-capstone.firebaseapp.com">demo</a>
@@ -297,7 +305,7 @@
 				    	<a class="collection-item center-align git linkBtn" target="_blank" href="https://github.com/JohnDHamm/trailTracker-capstone">GitHub</a>
 		      	</div>
 		      </div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -351,32 +359,46 @@
 
 	<!-- OTHER section -->
 	<div id="creative">
-		<div class="section no-pad-bot">
-			<div class="container">
-				<br><br>
-				<h4 class="header center grey-text text-darken-2">/* Other Creative Work */</h4>
-				<div class="row">
-
-					<div class="col s12 m6">
-						<div class="icon-block">
-							<h2 class="center brown-text"><i class="material-icons">group</i></h2>
-							<a href="/animation"><h5 class="center">Animation</h5></a>
-
-							<p class="light center-align">Short description of career in animation, including a list of titles/positions and projects/clients</p>
-						</div>
+		<div class="section">
+			<div class="container center-align">
+				<div class="row no-btm-margin">
+				<!-- <h4 class="header center grey-text text-darken-2">/* Other Creative Work */</h4> -->
+				<!-- <div class="row"> -->
+					<div class="col s12">
+						<h5 class="center animHeader">// Animation //</h5>
 					</div>
+				<!-- </div> -->
 
-					<div class="col s12 m6">
+				<!-- <div class="row"> -->
+					<div class="col s6 m4">
+						<img src="/img/anim/EAA/SesameStreet_ElmosAlphabetChallenge_04_GuitarHero_04751.jpg" alt="" class="animImg">
+					</div>
+					<div class="col s6 m4">
+						<img src="/img/anim/EAA/SesameStreet_ElmosAlphabetChallenge_04_GuitarHero_04751.jpg" alt="" class="animImg">
+					</div>
+					<div class="col m4 hide-on-small-only">
+						<img src="/img/anim/EAA/SesameStreet_ElmosAlphabetChallenge_04_GuitarHero_04751.jpg" alt="" class="animImg">
+					</div>
+				<!-- </div> -->
+
+				<!-- <div class="row"> -->
+					<div class="col s12 m8 offset-m2 animDescr">
+						<p class="light center-align">Prior to becoming a developer, I </p>
+						<a href="/animation"><p class="light center-align no-btm-margin">See examples here</p></a>
+					</div>
+				<!-- </div> -->
+
+					<!-- <div class="col s12 m6">
 						<div class="icon-block">
 							<h2 class="center brown-text"><i class="material-icons">group</i></h2>
 							<h5 class="center">Design</h5>
 
 							<p class="light center-align">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
 						</div>
-					</div>
+					</div> -->
 
 				</div>
-				<br><br>
+				<!-- <br><br> -->
 			</div>
 		</div>
 	</div>
@@ -384,7 +406,21 @@
 	<div id="contact">
 		<div class="section">
 			<div class="container center-align">
-				<p>this is where the github, linkedIn, and email icons will go</p>
+				<div class="row no-btm-margin">
+					<div class="col s12">
+						<h5>{{ Contact }}</h5>
+					</div>
+					<div class="col s12 m4">
+						<a href="mailto:johndhamm1@gmail.com"><p><i class="fa fa-envelope" aria-hidden="true"></i> johndhamm1@gmail.com</p></a>
+					</div>
+					<div class="col s12 m4">
+						<a href="https://github.com/JohnDHamm" target="_blank"><p><i class="fa fa-github" aria-hidden="true"></i> GitHub</p></a>
+					</div>
+					<div class="col s12 m4">
+						<a href="https://linkedin.com/in/johndhamm" target="_blank"><p><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedIn</p></a>
+					</div>
+
+				</div>
 
 			</div>
 		</div>
