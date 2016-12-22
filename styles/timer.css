@@ -1,0 +1,11 @@
+.testBorder {
+	border: 1px solid grey;
+}
+
+/*.noPadding {
+	padding: 0;
+}*/
+
+p.imgDescr {
+	line-height: 1.5rem;
+}
