@@ -163,9 +163,9 @@ div.projDescr {
 /*TEAM TIMER PROJECT ---------------------------*/
 
 #teamTimer h4 {
-  color: #333;
-  background-color: rgba(255,255,255,0.4);
-  text-shadow: 1px 1px 0 white;
+  color: rgb(233,67,57);
+  background-color: rgba(255,238,56,0.4);
+  text-shadow: 1px 1px 0 #000;
   border: 1px solid black;
   border-radius: 5px;
 
@@ -181,16 +181,16 @@ div.projDescr {
   text-shadow: 1px 1px 1px grey;
 }
 
-#teamTimer a.demo {
-  background-color: white;
-  color: grey;
+#teamTimer a.details {
+  background-color: rgb(255,238,56);
+  color: rgb(233,67,57);
   padding-left: 0;
   padding-right: 0;
 }
 
 #teamTimer a.git {
-  background-color: grey;
-  color: white;
+  background-color: rgb(233,67,57);
+  color: rgb(255,238,56);
   padding-left: 0;
   padding-right: 0;
 }
