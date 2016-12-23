@@ -1,6 +1,18 @@
+.timerBg {
+	background: linear-gradient(rgb(255,238,56), rgb(233,67,57));
+	margin: 0;
+	padding: 20px 0;
+}
+
+#timerIntro .section {
+	width: 100%;
+	padding: 0;
+}
+
+/*
 .testBorder {
 	border: 1px solid grey;
-}
+}*/
 
 /*.noPadding {
 	padding: 0;
