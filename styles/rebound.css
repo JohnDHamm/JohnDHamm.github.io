@@ -14,24 +14,12 @@ p {
 	padding: 0;
 }
 
-/*.no-btm-margin {
-	margin-bottom: 0;
-}
-
-.no-top-margin {
-	margin-top: 0;
-}*/
-
 .linkBtn {
 	background: rgba(255,255,255,.2);
 	color: rgb(0, 151, 156);
 	padding-left: 0;
   padding-right: 0;
 }
-
-/*.italicText {
-	font-style: italic;
-}*/
 
 #player2 .section {
 	width: 100%;
