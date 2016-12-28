@@ -13,3 +13,16 @@
 p.imgDescr {
 	line-height: 1.5rem;
 }
+
+.adminPic {
+	border: 1px solid #555;
+}
+
+div.top-border {
+	border-top: 1px solid #555;
+}
+
+.sectDivider {
+	height: 10px;
+	margin-bottom: 5px;
+}
