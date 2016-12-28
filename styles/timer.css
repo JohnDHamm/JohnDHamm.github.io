@@ -1,0 +1,28 @@
+.timerBg {
+	background: linear-gradient(rgb(255,238,56), rgb(233,67,57));
+	margin: 0;
+	padding: 20px 0;
+}
+
+#timerIntro .section {
+	width: 100%;
+	padding: 0;
+}
+
+
+p.imgDescr {
+	line-height: 1.5rem;
+}
+
+.adminPic {
+	border: 1px solid #555;
+}
+
+div.top-border {
+	border-top: 1px solid #555;
+}
+
+.sectDivider {
+	height: 10px;
+	margin-bottom: 5px;
+}
