@@ -196,35 +196,26 @@ div.projDescr {
 }
 
 /*PROJECT4 ------------------------------------*/
-
-#project4 h4 {
-  color: #333;
-  background-color: rgba(255,255,255,0.4);
-  text-shadow: 1px 1px 0 white;
-  border: 1px solid black;
+#nog h4 {
+  color: white;
+  background-color: rgba(25, 112, 22, 0.4);
+  text-shadow: 1px 1px 0 #701626;
+  border: 1px solid #ddd;
   border-radius: 5px;
-
 }
 
-#project4 h5 {
+#nog h5 {
   color: white;
   text-shadow: 1px 1px 0 grey;
 }
 
-#project4 p {
+#nog p {
   color: white;
   text-shadow: 1px 1px 1px grey;
 }
 
-#project4 a.demo {
-  background-color: white;
-  color: grey;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#project4 a.git {
-  background-color: grey;
+#nog a.demo {
+  background-color: #701626;
   color: white;
   padding-left: 0;
   padding-right: 0;
