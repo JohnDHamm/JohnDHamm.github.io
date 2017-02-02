@@ -1,0 +1,51 @@
+p {
+	font-size: 1.1rem;
+}
+
+.nogBg {
+	background-color: #701626;
+	color: #ddd;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.nogBg2 {
+	background-color: rgb(25, 91, 22);
+	color: #ddd;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#nogIntro .section {
+	width: 100%;
+	padding: 0;
+}
+
+#nogPhase1 .section {
+	width: 100%;
+	padding: 0;
+}
+
+#nogPhase1 a.gitBtn {
+	background: white;
+	color: #701626;
+	padding-left: 0;
+  padding-right: 0;
+}
+
+#nogPhase2 .section {
+	width: 100%;
+	padding: 0;
+}
+
+#nogPhase2 h6 {
+	font-size: 1.1rem;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.boldText {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-shadow: 2px 2px 0 rgb(25, 91, 22);
+}
