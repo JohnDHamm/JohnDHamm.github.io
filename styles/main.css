@@ -168,7 +168,6 @@ div.projDescr {
   text-shadow: 1px 1px 0 #000;
   border: 1px solid black;
   border-radius: 5px;
-
 }
 
 #teamTimer h5 {
@@ -214,7 +213,7 @@ div.projDescr {
   text-shadow: 1px 1px 1px grey;
 }
 
-#nog a.demo {
+#nog a.info {
   background-color: #701626;
   color: white;
   padding-left: 0;
