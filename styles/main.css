@@ -283,3 +283,16 @@ div.projDescr {
   color: #aaa;
 }
 
+/*ANIMATIONS*/
+@keyframes fade-inUp {
+  from {opacity: 0; transform: translateY(50px);}
+  to {opacity: 1;}
+}
+
+.fade-inUp-start {
+  opacity: 0;
+}
+
+.fade-inUp-element {
+  animation: fade-inUp 1.0s;
+}
