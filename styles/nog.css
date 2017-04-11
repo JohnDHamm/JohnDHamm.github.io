@@ -3,14 +3,18 @@ p {
 }
 
 .nogBg {
-	background-color: #701626;
+	width: 100%;
+	background-image: url('/img/nog/redFlakesBg.svg');
+	background-size: cover;
 	color: #ddd;
 	margin: 0;
 	padding: 20px 0;
 }
 
 .nogBg2 {
-	background-color: rgb(25, 91, 22);
+	width: 100%;
+	background-image: url('/img/nog/greenFlakesBg.svg');
+	background-size: cover;
 	color: #ddd;
 	margin: 0;
 	padding: 20px 0;
