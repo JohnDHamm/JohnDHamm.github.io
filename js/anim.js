@@ -18,7 +18,7 @@ var animateHTML = function() {
 
       var posFromTop = elems[i].getBoundingClientRect().top;
 
-      if ( posFromTop - windowHeight <= -20 ) {
+      if ( posFromTop - windowHeight <= -60 ) {
         elems[i].className = elems[i].className.replace( "fade-inUp-start", "fade-inUp-element" );
       }
 
