@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+	<title>John D. Hamm - software developer</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Harmattan|Rancho" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link rel="stylesheet" href="/styles/main.css">
+	<link rel="stylesheet" href="/styles/trail.css">
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="grey darken-4" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="../" class="brand-logo center reboundNav">John D. Hamm</a>
+		</div>
+	</nav>
+
+	<!-- intro section -->
+	<div id="trailIntro" class="trailBg valign-wrapper">
+		<div class="section">
+			<div class="container">
+
+				<div class="row no-btm-margin">
+					<img src="../img/trail/trailTracker_home.jpg" class="responsive-img trailImg" alt="">
+				</div>
+
+				<div class="row no-btm-margin">
+					<div class="col s12 header center">
+						<i class="material-icons downArrow">keyboard_arrow_down</i>
+					</div>
+				</div>
+
+				<div id="selectTrail" class="row no-btm-margin trailContainer">
+					<div id="target-1" class="targetAnim"></div>
+					<div id="target-1b" class="targetAnim hideTrailImg"></div>
+					<div id="target-2" class="targetAnim"></div>
+					<div id="openTicketBadge" class="modalDiv hideTrailImg">
+						<p class="modalText light">Displays the current number of open tickets to alert users of trail issues</p>
+					</div>
+					<img id="trailSelect1" src="../img/trail/trailTracker_trailSelect-1.jpg" class="responsive-img trailImg" alt="">
+					<img id="trailSelect2" src="../img/trail/trailTracker_trailSelect-2.jpg" class="responsive-img trailImg hideTrailImg" alt="">
+				</div>
+
+				<div class="row no-btm-margin">
+					<div class="col s12 header center">
+						<i class="material-icons downArrow">keyboard_arrow_down</i>
+					</div>
+				</div>
+
+				<div class="row no-btm-margin trailContainer">
+					<div id="target-3" class="targetAnim"></div>
+					<div id="mapMarker" class="modalDiv hideTrailImg">
+						<p class="modalText light">Uploading a photo with GPS tagging adds a marker to the map for others to pinpoint the issue</p>
+					</div>
+					<div id="target-4" class="targetAnim"></div>
+					<div id="target-5" class="targetAnim"></div>
+					<div id="target-6" class="targetAnim"></div>
+					<div id="userPost" class="modalDiv hideTrailImg">
+						<p class="modalText light">Users can add posts to let others know about trail conditions or arrange a future ride with friends</p>
+					</div>
+					<div id="closeTicket" class="modalDiv hideTrailImg">
+						<p class="modalText light">Closing a ticket lets others know that the trail is clear</p>
+					</div>
+					<img id="HCphoto" src="../img/trail/trailTracker_HCphoto.jpg" class="responsive-img trailImg hideTrailImg" alt="">
+					<img id="trailView" src="../img/trail/trailTracker_trailView.jpg" class="responsive-img trailImg" alt="">
+				</div>
+
+				<div id="trailDemo" class="row">
+					<div class="col s8 offset-s2 m4 offset-m4">
+						<div class="collection moreBtn">
+				    	<a class="collection-item center-align demoBtn" target="_blank" href="https://trailtracker-capstone.firebaseapp.com">demo with Google account</a>
+		      	</div>
+		      </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="pagesFooter">
+		<div class="section">
+			<div class="container center-align">
+				<a href="../"><p class="light">back to home</p></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/trail.js"></script>
+</body>
+</html>
