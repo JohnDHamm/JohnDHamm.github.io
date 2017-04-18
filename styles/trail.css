@@ -11,11 +11,9 @@
 	padding: 0;
 }
 
-.trailTitle {
-	font-family: 'Chelsea Market', cursive;
-	font-size: 4rem;
-	color: #9e9d24;
-	text-shadow: 2px 2px 0 #3e2723;
+.downArrow {
+	font-size: 5rem;
+	color: #827717;
 }
 
 .trailContainer {
@@ -157,9 +155,12 @@ p.modalText {
   to {opacity: 0.1; transform: scale(2)}
 }
 
+#trailDemo {
+	margin-top: 10px;
+}
+
 #trailDemo a.demoBtn {
 	background: #9e9d24;
-	/*color: #ffca28;*/
 	color: #fff;
 	padding-left: 0;
   padding-right: 0;
