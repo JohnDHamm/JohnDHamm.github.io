@@ -138,6 +138,10 @@ p.modalText {
   to {opacity: 0.1; transform: scale(2)}
 }
 
-.moveTarget1 {
-	top: 20%;
+#trailDemo a.demoBtn {
+	background: #9e9d24;
+	/*color: #ffca28;*/
+	color: #fff;
+	padding-left: 0;
+  padding-right: 0;
 }
