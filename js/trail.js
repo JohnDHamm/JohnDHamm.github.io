@@ -18,7 +18,6 @@ $(function() {
 	};
 
 	$('.modalDiv').on('click', function () {
-		// console.log("clicked on this:", this);
 		console.log("clicked on modalDiv");
 		$(this).toggleClass('hideTrailImg')
 	});
@@ -31,6 +30,21 @@ $(function() {
 	$('#target-3').on('click', function () {
 		console.log("clicked on this:", this);
 		$('#mapMarker').toggleClass('hideTrailImg')
+	});
+
+	$('#target-4').on('click', function () {
+		console.log("clicked on this:", this);
+		$('#userPost').toggleClass('hideTrailImg')
+	});
+
+	$('#target-5').on('click', function () {
+		console.log("clicked on this:", this);
+		$('#photoThumb').toggleClass('hideTrailImg')
+	});
+
+	$('#target-6').on('click', function () {
+		console.log("clicked on this:", this);
+		$('#closeTicket').toggleClass('hideTrailImg')
 	});
 
 
