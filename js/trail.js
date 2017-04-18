@@ -17,16 +17,25 @@ $(function() {
 		$('#target-1').toggleClass('hideTrailImg');
 	};
 
+	$('.modalDiv').on('click', function () {
+		// console.log("clicked on this:", this);
+		console.log("clicked on modalDiv");
+		$(this).toggleClass('hideTrailImg')
+	});
+
 	$('#target-2').on('click', function () {
 		console.log("clicked on this:", this);
 		$('#openTicketBadge').toggleClass('hideTrailImg')
-
 	});
-	$('#openTicketBadge').on('click', function () {
+
+	$('#target-3').on('click', function () {
 		console.log("clicked on this:", this);
-		$('#openTicketBadge').toggleClass('hideTrailImg')
-
+		$('#mapMarker').toggleClass('hideTrailImg')
 	});
+
+
+
+
 
 
 });
