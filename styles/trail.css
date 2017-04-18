@@ -1,9 +1,9 @@
 #trailIntro {
-
+	color: #3e2723;
 }
 
 .trailBg {
-	/*background: yellow;*/
+	background: #ffd54f;
 }
 
 #trailIntro .section {
@@ -12,35 +12,76 @@
 }
 
 .trailTitle {
-	/*color: red;*/
+	font-family: 'Chelsea Market', cursive;
+	font-size: 4rem;
+	color: #9e9d24;
+	text-shadow: 2px 2px 0 #3e2723;
 }
 
-.testContainer {
+.trailContainer {
 	position: relative;
 }
 
 .trailImg {
 	box-shadow: 5px 5px 5px rgba(0,0,0,.25);
+	margin: 15px 0;
+}
+
+.hideTrailImg {
+	display: none;
 }
 
 #target-1 {
-	top: 40%;
-	left: 32.8%;
+	top: 35%;
+	left: 33.5%;
+}
+
+#target-1b {
+	top: 13%;
+	left: 33.5%;
 }
 
 #target-2 {
-	top: 15%;
-	left: 59%;
+	top: 82%;
+	left: 57%;
+}
+
+#openTicketBadge {
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	z-index: 4;
+	top: 70%;
+	left: 57%;
+	cursor: pointer;
+}
+
+p.modalText {
+	color: #ddd;
+	margin: 0;
+	padding: 0.5rem 0.75rem;
+	line-height: 1.25rem;
 }
 
 #target-3 {
-	top: 54%;
-	left: 61.5%;
+	top: 40%;
+	left: 32.8%;
 }
 
 #target-4 {
 	top: 15%;
 	left: 59%;
+}
+
+#target-5 {
+	top: 54%;
+	left: 61.5%;
+}
+
+#target-6 {
+	top: 54%;
+	left: 90%;
 }
 
 .targetAnim {
@@ -62,7 +103,10 @@
 }
 
 @keyframes target {
-	from {opacity: 0.5;}
-  to {opacity: 0.05; transform: scale(2)}
+	from {opacity: 0.75;}
+  to {opacity: 0.1; transform: scale(2)}
 }
 
+.moveTarget1 {
+	top: 20%;
+}
