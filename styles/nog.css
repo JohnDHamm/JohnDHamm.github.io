@@ -62,3 +62,11 @@ p {
 	text-shadow: 2px 2px 0 rgb(25, 91, 22);
 }
 
+.nogThumbImg {
+	box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.nogThumbCaption {
+	font-size: 0.8rem;
+}
+
