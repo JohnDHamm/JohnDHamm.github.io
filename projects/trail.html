@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Harmattan|Rancho" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 	<link rel="stylesheet" href="/styles/main.css">
-	<link rel="stylesheet" href="/styles/trail.css">
+ 	<link rel="stylesheet" href="/styles/trail.css">
 </head>
 <body>
 
@@ -25,55 +25,90 @@
 		<div class="section">
 			<div class="container">
 
-				<div class="row no-btm-margin">
-					<img src="../img/trail/trailTracker_home.jpg" class="responsive-img trailImg" alt="">
+				<div class="row center no-btm-margin">
+					<!-- <div class="col s8 offset-s2 m6 offset-m3 l4 offset-l4"> -->
+						<h4 class="header center black-text">Trail Tracker</h4>
+					<!-- </div> -->
+				</div>
+
+				<div class="row center">
+					<h5 class="header center col s12 light">An app for the mountain biking community</h5>
+					<div class="col s12 no-top-margin">
+						<p class="light center-align fade-inUp-element">Mountain biking is great exercise and loads of fun. But in middle Tennessee, bikers frequently run into issues that can put a damper on their riding...</p>
+					</div>
+					<div class="row center">
+						<div class="col s10 offset-s1 m8 offset-m2 fade-inUp-element">
+							<span>Rain: </span><span class="light center-align">trails in mid-TN are notorius for not holding up well during heavy rain periods. This can cause conditions that are dangerous for riders and long-lasting damage to the trail itself if bikers ride in the mud and create ruts</span>
+						</div>
+					</div>
+					<div class="row center">
+						<div class="col s10 offset-s1 m8 offset-m2 fade-inUp-element">
+							<span>Downed trees and other hazards: </span><span class="light center-align fade-inUp-element">most trails are maintained by volunteers (other riders), and in some cases need specific equipment to clear an obstacle</span>
+						</div>
+					</div>
 				</div>
 
 				<div class="row no-btm-margin">
-					<div class="col s12 header center">
-						<i class="material-icons downArrow">keyboard_arrow_down</i>
+					<div class="col s12 m6">
+						<img src="../img/trail/screenCap_home.jpg" class="materialboxed responsive-img trailImg" alt="" data-caption="Trail Tracker home page">
+					</div>
+					<div class="col s12 m6">
+						<img src="../img/trail/screenCap_trails.jpg" class="materialboxed responsive-img trailImg" alt="" data-caption="Trail selection page - informs the user of the current number of open tickets for each trail">
 					</div>
 				</div>
 
-				<div id="selectTrail" class="row no-btm-margin trailContainer">
-					<div id="target-1" class="targetAnim"></div>
-					<div id="target-1b" class="targetAnim hideTrailImg"></div>
-					<div id="target-2" class="targetAnim"></div>
-					<div id="openTicketBadge" class="modalDiv hideTrailImg">
-						<p class="modalText light">Displays the current number of open tickets to alert users of trail issues</p>
-					</div>
-					<img id="trailSelect1" src="../img/trail/trailTracker_trailSelect-1.jpg" class="responsive-img trailImg" alt="">
-					<img id="trailSelect2" src="../img/trail/trailTracker_trailSelect-2.jpg" class="responsive-img trailImg hideTrailImg" alt="">
+				<div class="row center">
+					<p class="light center-align fade-inUp-start">Trail Tracker is an app designed to help alleviate those issues by allowing users to see current information on a trail that has been posted by other riders, as well as get current weather conditions and radar for that trail. Users can open a ticket when they encounter an issue on the trail and upload a photo for others to see. Uploading a geotagged photo automatically adds a marker to the trail map*. Volunteers who fix any issues can also close tickets. Any rider can log in and let others know how their ride went and organize a future ride.</p>
+					<p class="caveat light center-align fade-inUp-start">* Google Map feature currently in development for this React version of the app. To see it in action in the original Angular app, see demo link at bottom of page.</p>
 				</div>
+
+<!-- 				<div class="row center">
+					<p class="light center-align fade-inUp-start">This is more info to talk about a trail page and weather/google maps..."</p>
+				</div> -->
 
 				<div class="row no-btm-margin">
-					<div class="col s12 header center">
-						<i class="material-icons downArrow">keyboard_arrow_down</i>
-					</div>
+					<img src="../img/trail/screenCap_HC.jpg" class="responsive-img trailImg" alt="">
 				</div>
 
-				<div class="row no-btm-margin trailContainer">
-					<div id="target-3" class="targetAnim"></div>
-					<div id="mapMarker" class="modalDiv hideTrailImg">
-						<p class="modalText light">Uploading a photo with GPS tagging adds a marker to the map for others to pinpoint the issue</p>
-					</div>
-					<div id="target-4" class="targetAnim"></div>
-					<div id="target-5" class="targetAnim"></div>
-					<div id="target-6" class="targetAnim"></div>
-					<div id="userPost" class="modalDiv hideTrailImg">
-						<p class="modalText light">Users can add posts to let others know about trail conditions or arrange a future ride with friends</p>
-					</div>
-					<div id="closeTicket" class="modalDiv hideTrailImg">
-						<p class="modalText light">Closing a ticket lets others know that the trail is clear</p>
-					</div>
-					<img id="HCphoto" src="../img/trail/trailTracker_HCphoto.jpg" class="responsive-img trailImg hideTrailImg" alt="">
-					<img id="trailView" src="../img/trail/trailTracker_trailView.jpg" class="responsive-img trailImg" alt="">
+				<div class="row center no-btm-margin">
+					<p class="light center-align fade-inUp-start">Trail Tracker was recently redeveloped as a full-stack app utilizing the React/Redux framework with separate Node/Express/MongoDB backend, with Amazon Web Services S3 for image storage, WeatherUnderground API, and deployment on Heroku. A React-Native app for iOS and Android is currently in development.</p>
 				</div>
 
-				<div id="trailDemo" class="row">
-					<div class="col s8 offset-s2 m4 offset-m4">
+				<div class="row">
+					<div class="col s4 m2 offset-m3">
 						<div class="collection moreBtn">
-				    	<a class="collection-item center-align demoBtn" target="_blank" href="https://trailtracker-capstone.firebaseapp.com">demo with Google account</a>
+				    	<a class="collection-item center-align demoBtn" target="_blank" href="https://trailtracker-react.herokuapp.com/">demo</a>
+		      	</div>
+		      </div>
+					<div class="col s4 m2">
+						<div class="collection moreBtn">
+				    	<a class="collection-item center-align demoBtn" target="_blank" href="https://github.com/JohnDHamm/trail-tracker-react">GitHub</a>
+		      	</div>
+		      </div>
+					<div class="col s4 m2">
+						<div class="collection moreBtn">
+				    	<a class="collection-item center-align demoBtn" target="_blank" href="https://github.com/JohnDHamm/trail-tracker-backend">backend</a>
+		      	</div>
+		      </div>
+				</div>
+
+
+
+				<div class="sectDivider top-border"></div>
+
+				<div class="row center no-btm-margin">
+					<p class="light center-align fade-inUp-start">This app was originally developed as a capstone project while a student at Nashville Software School and utilized Angular, Firebase (database, image storage, and hosting), Google Maps, WeatherUnderground API, and Sass. You can demo the app (with Google account authorization) below:</p>
+				</div>
+
+				<div class="row">
+					<div class="col s6 m4 offset-m2">
+						<div class="collection moreBtn">
+				    	<a class="collection-item center-align origAppBtn" target="_blank" href="https://trailtracker-capstone.firebaseapp.com">demo original app</a>
+		      	</div>
+		      </div>
+					<div class="col s6 m4 ">
+						<div class="collection moreBtn">
+				    	<a class="collection-item center-align origAppBtn" target="_blank" href="https://github.com/JohnDHamm/trailTracker-capstone/tree/master/demo">geotagged photos for demo</a>
 		      	</div>
 		      </div>
 				</div>
@@ -93,6 +128,7 @@
 
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="../js/materialize.js"></script>
-  <script src="../js/trail.js"></script>
+  <script src="../js/anim.js"></script>
+  <!-- <script src="../js/trail.js"></script> -->
 </body>
 </html>

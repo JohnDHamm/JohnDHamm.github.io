@@ -1,9 +1,7 @@
-#trailIntro {
-	color: #3e2723;
-}
-
 .trailBg {
 	background: #ffd54f;
+	margin: 0;
+	padding: 20px 0;
 }
 
 #trailIntro .section {
@@ -11,157 +9,42 @@
 	padding: 0;
 }
 
-.downArrow {
-	font-size: 5rem;
-	color: #827717;
-}
-
-.trailContainer {
-	position: relative;
-}
-
 .trailImg {
 	box-shadow: 5px 5px 5px rgba(0,0,0,.25);
 	margin: 15px 0;
 }
 
-.hideTrailImg {
-	display: none;
+p.caveat {
+	font-style: italic;
+	font-size: 0.8rem;
+	line-height: 1rem;
 }
 
-#HCphoto {
-	z-index: 6;
-	cursor: pointer;
+div.top-border {
+	border-top: 1px solid #9e9d24;
 }
 
-#target-1 {
-	top: 35%;
-	left: 33.5%;
-}
-
-#target-1b {
-	top: 13%;
-	left: 33.5%;
-}
-
-#target-2 {
-	top: 82%;
-	left: 57%;
-}
-
-#openTicketBadge {
-	top: 70%;
-	left: 57%;
-}
-
-#mapMarker {
-	top: 28%;
-	left: 25%;
-}
-
-#userPost {
-	top: 23%;
-	left: 54%;
-}
-
-#closeTicket {
-	top: 60%;
-	left: 70%;
-}
-
-.animModal {
-	animation: modalAnim 0.25s;
-}
-
-@keyframes modalAnim {
-	0%	{opacity: 0; transform: scale(0.25);}
-	25% {opacity: 0.25; transform: scale(1.1);}
-	60% {opacity: 0.6; transform: scale(0.95);}
-	100% {opacity: 1; transform: scale(1.0);}
-}
-
-.modalDiv {
-	position: absolute;
-	background: rgba(0,0,0,0.7);
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	z-index: 4;
-	cursor: pointer;
-}
-
-p.modalText {
-	color: #ddd;
-	margin: 0;
-	padding: 0.5rem 0.75rem;
-	line-height: 1.25rem;
-}
-
-#target-3 {
-	top: 40%;
-	left: 32.8%;
-}
-
-#target-4 {
-	top: 16%;
-	left: 59%;
-}
-
-#target-5 {
-	top: 54%;
-	left: 61.5%;
-}
-
-#target-6 {
-	top: 54%;
-	left: 90%;
-}
-
-.targetAnim {
-	position: absolute;
-	z-index: 2;
-	border-radius: 50%;
-	border: red solid 1px;
-	background: transparent;
-	width: 25px;
-	height: 25px;
-	animation: target 0.5s infinite;
-	animation-direction: alternate;
-}
-
-.targetAnim:nth-child(2) {
-	animation-delay: 0.25s;
-}
-
-.targetAnim:nth-child(3) {
-	animation-delay: 0.25s;
-}
-
-.targetAnim:nth-child(4) {
-	animation-delay: 0.5s;
-}
-
-.targetAnim:nth-child(5) {
-	animation-delay: 0.75s;
-}
-
-.targetAnim:hover {
-	border: green solid 1px;
-	background: rgba(255,255,255,0.75);
-	cursor: pointer;
-}
-
-@keyframes target {
-	from {opacity: 0.75;}
-  to {opacity: 0.1; transform: scale(2)}
+.sectDivider {
+	height: 10px;
+	margin-bottom: 5px;
 }
 
 #trailDemo {
 	margin-top: 10px;
 }
 
-#trailDemo a.demoBtn {
+#trailIntro a.demoBtn {
 	background: #9e9d24;
 	color: #fff;
 	padding-left: 0;
   padding-right: 0;
+}
+
+#trailIntro a.origAppBtn {
+	/*background: #ffca28;*/
+	background: #fff;
+	color: #9e9d24;
+	padding-left: 0;
+  padding-right: 0;
+  border-color: #9e9d24;
 }

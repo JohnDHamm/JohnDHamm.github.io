@@ -26,3 +26,14 @@ div.top-border {
 	height: 10px;
 	margin-bottom: 5px;
 }
+
+#timerIntro a.timerOrigGit {
+	background-color: rgb(255,238,56);
+	color: rgb(233,67,57);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.aeroLogoDiv {
+	margin-top: 1em;
+}
