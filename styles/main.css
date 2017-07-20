@@ -105,6 +105,18 @@ div.projDescr {
   height: 30px;
 }
 
+.appStoreDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appStoreBadge {
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .moreBtn {
   box-shadow: 0 0 0 rgba(0,0,0,0);
   transition: all 0.15s ease-in-out;
@@ -210,7 +222,33 @@ div.projDescr {
   padding-right: 0;
 }
 
-/*PROJECT4 ------------------------------------*/
+/*CADENCE PROJECT -------------------------*/
+#cadence h4 {
+  color: white;
+  background-color: rgba(91,21,20,0.5);
+  text-shadow: 1px 1px 0 rgb(50,83,127);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#cadence h5 {
+  color: white;
+  text-shadow: 1px 1px 0 grey;
+}
+
+#cadence p {
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#cadence a.details {
+  background-color: rgba(175,183,214,0.4);
+  color: rgb(91,21,20);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* NOG PROJECT ------------------------------------*/
 #nog h4 {
   color: white;
   background-color: rgba(25, 112, 22, 0.4);
