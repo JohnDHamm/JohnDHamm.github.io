@@ -1,0 +1,21 @@
+.cadenceBg {
+	background: rgb(175,183,214);
+	margin: 0;
+	padding: 20px 0;
+}
+
+#cadenceIntro .section {
+	width: 100%;
+	padding: 0;
+}
+
+.screenshotDiv {
+	margin-bottom: 10px;
+}
+
+#cadenceIntro a.cadenceGit {
+	background-color: rgb(91,21,20);
+	color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
