@@ -1,7 +1,7 @@
 .trailBg {
 	background: #ffd54f;
 	margin: 0;
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 }
 
 #trailIntro .section {
@@ -47,4 +47,8 @@ div.top-border {
 	padding-left: 0;
   padding-right: 0;
   border-color: #9e9d24;
+}
+
+.trailSubtitle {
+	color: #9e9d24;
 }
