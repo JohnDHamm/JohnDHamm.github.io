@@ -51,3 +51,9 @@ div.top-border {
 .trailSubtitle {
 	color: #9e9d24;
 }
+
+.trailTechUsedDiv {
+	margin: 0;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 3px;
+}

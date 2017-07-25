@@ -68,7 +68,8 @@ footer.page-footer {
 }
 
 .techLogo {
-  margin: auto;
+  /*margin: auto;*/
+  margin: 5px auto;
   width: 50px;
 }
 
