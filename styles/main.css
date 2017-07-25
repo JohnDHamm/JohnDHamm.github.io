@@ -1,368 +1,460 @@
 nav ul a,
 nav .brand-logo {
-  color: #ffe57f;
+	color: #ffe57f;
 }
 
 a.brand-logo {
-  font-size: 2rem;
-  font-family: "Condiment";
+	font-size: 2rem;
+	font-family: "Condiment";
 }
 
 .jdhLogo-codes {
-  color: white;
+	color: white;
 }
 
 p {
-  line-height: 2rem;
-  font-size: 1.1rem;
+	line-height: 2rem;
+	font-size: 1.1rem;
 }
 
 .button-collapse {
-  color: #ffe57f;
+	color: #ffe57f;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
 }
 
 .parallax-container .section {
-  width: 100%;
+	width: 100%;
 }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    /*top: 40%;*/
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+	.parallax-container .section {
+		position: absolute;
+		/*top: 40%;*/
+	}
+	#index-banner .section {
+		top: 10%;
+	}
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+	#index-banner .section {
+		top: 0;
+	}
 }
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+	margin: 0;
 }
 
 /*INTRO SECTION------------------*/
-
-
-/*TECHNOLOGY SECTION ---------------------*/
-#technology {
-  color: #ccc;
+#index-banner {
+	color: #212121;
+	font-family: "Condiment";
 }
 
+span.introAltColor {
+	color: #ffe57f;
+	text-shadow: 1px 1px 0 #212121;
+}
+
+h3.titleSubheader {
+	margin-top: 0;
+}
+
+#techIconsContainer {
+	position: relative;
+	border: 1px solid #ccc;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+@keyframes techAnimOne {
+	0% {opacity: 0;}
+	3% {opacity: 1;}
+	17% {opacity: 1}
+	20% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes techAnimTwo {
+	0% {opacity: 0;}
+	20% {opacity: 0;}
+	23% {opacity: 1;}
+	37% {opacity: 1}
+	40% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes techAnimThree {
+	0% {opacity: 0;}
+	40% {opacity: 0;}
+	43% {opacity: 1;}
+	57% {opacity: 1}
+	60% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes techAnimFour {
+	0% {opacity: 0;}
+	60% {opacity: 0;}
+	63% {opacity: 1;}
+	77% {opacity: 1}
+	80% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes techAnimFive {
+	0% {opacity: 0;}
+	80% {opacity: 0;}
+	83% {opacity: 1;}
+	97% {opacity: 1}
+	100% {opacity: 0;}
+}
+
+.techIconDiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.firstTechDiv {
+	animation: techAnimOne 20.0s;
+	animation-iteration-count: infinite;
+}
+
+.secondTechDiv {
+	animation: techAnimTwo 20.0s;
+	animation-iteration-count: infinite;
+}
+
+.thirdTechDiv {
+	animation: techAnimThree 20.0s;
+	animation-iteration-count: infinite;
+}
+
+.fourthTechDiv {
+	animation: techAnimFour 20.0s;
+	animation-iteration-count: infinite;
+}
+
+.fifthTechDiv {
+	animation: techAnimFive 20.0s;
+	animation-iteration-count: infinite;
+}
+
+/*TECHNOLOGY SECTION ---------------------*/
+/*#technology {
+	color: #ccc;
+}*/
+
 .techLogoDiv {
-  margin-top: 10px;
-  margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .techLogo {
-  /*margin: auto;*/
-  margin: 5px auto;
-  width: 50px;
+	/*margin: auto;*/
+	margin: 5px auto;
+	width: 50px;
 }
 
 /*PROJECTS ------------------------*/
 #projectsHeader {
-  color: #ffe57f;
-  /*background: #ffe57f;*/
+	color: #ffe57f;
+	/*background: #ffe57f;*/
 }
 
 .projectsDiv {
-  /*padding: 5px 0;*/
-  border-top: 1px solid #ffe57f;
-  border-bottom: 1px solid #ffe57f;
+	/*padding: 5px 0;*/
+	border-top: 1px solid #ffe57f;
+	border-bottom: 1px solid #ffe57f;
 }
 
 #projectsHeader h4 {
-  font-family: "Condiment";
-  margin: 10px 0 0 0;
-  /*margin-top: 8px;*/
+	font-family: "Condiment";
+	margin: 10px 0 0 0;
+	/*margin-top: 8px;*/
 }
 
 div.projDivider {
-  height: 3px;
-  padding: 0;
+	height: 3px;
+	padding: 0;
 }
 
 div.projTitle {
-  margin: 10px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 div.projDescr {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .techUsedDiv{
-  margin: 0 0;
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 3px;
+	margin: 0 0;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 3px;
 }
 
 .techUsedIcon {
-  margin: 5px auto;
-  height: 30px;
+	margin: 5px auto;
+	height: 30px;
 }
 
 .appStoreDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .appStoreBadge {
-  margin: auto;
-  max-height: 100%;
-  max-width: 100%;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .moreBtn {
-  box-shadow: 0 0 0 rgba(0,0,0,0);
-  transition: all 0.15s ease-in-out;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	transition: all 0.15s ease-in-out;
 }
 
 .moreBtn:hover {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+	transform: scale(1.05);
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
 
 .moreBtn:active {
-  box-shadow: 0 0 5px #fff;
+	box-shadow: 0 0 5px #fff;
 }
 
 
 /*TRAIL TRACKER PROJECT - PARALLAX*/
 #trailTracker h4 {
-  color: #ffca28; /*amber lighten-1*/
-  text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
-  font-family: "Chelsea Market";
+	color: #ffca28; /*amber lighten-1*/
+	text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
+	font-family: "Chelsea Market";
 }
 
 #trailTracker h5 {
-  color: white;
-  text-shadow: 1px 1px 0 #9e9d24;
+	color: white;
+	text-shadow: 1px 1px 0 #9e9d24;
 }
 
 #trailTracker p {
-  color: white;
-  text-shadow: 1px 1px 1px #3e2723; /*brown darken-4*/
+	color: white;
+	text-shadow: 1px 1px 1px #3e2723; /*brown darken-4*/
 }
 
 #trailTracker a.details {
-  background-color: rgba(255,202,40,0.3);
-  color: #ffca28;
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgba(255,202,40,0.3);
+	color: #ffca28;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*REBOUND PROJECT ----------------------------*/
 #rebound h4 {
-  color: rgb(0, 151, 156);
-  text-shadow: 1px 1px 0 white;
+	color: rgb(0, 151, 156);
+	text-shadow: 1px 1px 0 white;
 }
 
 #rebound h5 {
-  color: white;
-  text-shadow: 1px 1px 0 rgb(0, 151, 156);
+	color: white;
+	text-shadow: 1px 1px 0 rgb(0, 151, 156);
 }
 
 #rebound p {
-  color: white;
-  text-shadow: 1px 1px 1px rgb(0, 112, 116);
+	color: white;
+	text-shadow: 1px 1px 1px rgb(0, 112, 116);
 }
 
 #rebound a {
-  background-color: rgba(0, 151, 156, 0.4);
-  color: white;
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgba(0, 151, 156, 0.4);
+	color: white;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*TEAM TIMER PROJECT ---------------------------*/
 #teamTimer h5 {
-  color: white;
-  text-shadow: 1px 1px 0 grey;
+	color: white;
+	text-shadow: 1px 1px 0 grey;
 }
 
 #teamTimer p {
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #teamTimer a.details {
-  background-color: rgba(233,67,57,0.4);
-  color: rgb(255,238,56);
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgba(233,67,57,0.4);
+	color: rgb(255,238,56);
+	padding-left: 0;
+	padding-right: 0;
 }
 
 #teamTimer a.git {
-  background-color: rgb(233,67,57);
-  color: rgb(255,238,56);
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgb(233,67,57);
+	color: rgb(255,238,56);
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*CADENCE PROJECT -------------------------*/
 #cadence h5 {
-  color: white;
-  text-shadow: 1px 1px 0 grey;
+	color: white;
+	text-shadow: 1px 1px 0 grey;
 }
 
 #cadence p {
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #cadence a.details {
-  background-color: rgba(175,183,214,0.4);
-  color: rgb(91,21,20);
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgba(175,183,214,0.4);
+	color: rgb(91,21,20);
+	padding-left: 0;
+	padding-right: 0;
 }
 
 img.cadenceTitleLogo {
-  width: 100%;
+	width: 100%;
 }
 
 /* NOG PROJECT ------------------------------------*/
 #nog h5 {
-  color: white;
-  text-shadow: 1px 1px 0 grey;
+	color: white;
+	text-shadow: 1px 1px 0 grey;
 }
 
 #nog p {
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #nog a.info {
-  background-color: rgba(112, 22, 38, 0.4);
-  color: white;
-  padding-left: 0;
-  padding-right: 0;
+	background-color: rgba(112, 22, 38, 0.4);
+	color: white;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*CREATIVE SECTION -----------------------------*/
 #creative {
-  color: #ccc;
-  background: #222;
+	color: #ccc;
+	background: #222;
 }
 
 .creativeDiv {
-  /*padding: 5px 0;*/
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+	/*padding: 5px 0;*/
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
 }
 
 #creative h4 {
-  font-family: "Condiment";
-  margin: 10px 0 0 0;
+	font-family: "Condiment";
+	margin: 10px 0 0 0;
 }
 
 .animImg {
-  width: 100%;
+	width: 100%;
 }
 
 #creative a {
-  color: #777;
+	color: #777;
 }
 
 #creative a:hover {
-  color: #ffe57f;
+	color: #ffe57f;
 }
 
 /*CONTACT SECTION ------------------------------*/
 #contact {
-  background-color: #111;
-  color: #aaa;
+	background-color: #111;
+	color: #aaa;
 }
 
 .contactDiv {
-  margin-bottom: 20px;
-  border-top: 1px solid #ffe57f;
-  border-bottom: 1px solid #ffe57f;
+	margin-bottom: 20px;
+	border-top: 1px solid #ffe57f;
+	border-bottom: 1px solid #ffe57f;
 }
 
 #contact h4 {
-  font-family: "Condiment";
-  color: #ffe57f;
-  margin: 10px 0 0 0;
+	font-family: "Condiment";
+	color: #ffe57f;
+	margin: 10px 0 0 0;
 }
 
 #contact p {
-  margin: 5px 0;
+	margin: 5px 0;
 }
 
 #contact a {
-  color: #777;
+	color: #777;
 }
 
 #contact a:hover {
-  color: #ffe57f;
+	color: #ffe57f;
 }
 
 /*COMMON FOR ALL PAGES*/
 .no-btm-margin {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .no-top-margin {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 .italicText {
-  font-style: italic;
+	font-style: italic;
 }
 
 .pagesFooter {
-  background-color: #111;
-  /*color: #aaa;*/
+	background-color: #111;
+	/*color: #aaa;*/
 }
 
 .pagesFooter p {
-  margin: 0;
-  color: #aaa;
-  font-family: "Condiment";
-  font-size: 1.5rem;
+	margin: 0;
+	color: #aaa;
+	font-family: "Condiment";
+	font-size: 1.5rem;
 }
 
 /*ANIMATIONS*/
 @keyframes fade-inUp {
-  from {opacity: 0; transform: translateY(50px);}
-  to {opacity: 1;}
+	from {opacity: 0; transform: translateY(50px);}
+	to {opacity: 1;}
 }
 
 .fade-inUp-start {
-  opacity: 0;
+	opacity: 0;
 }
 
 .fade-inUp-element {
-  animation: fade-inUp 1.0s;
+	animation: fade-inUp 1.0s;
 }
 
 @keyframes fade-in {
-  from {opacity: 0; transform: scale(0.5)}
-  to {opacity: 1;}
+	from {opacity: 0; transform: scale(0.5)}
+	to {opacity: 1;}
 }
 
 .fade-in-anim {
-  animation: fade-in 1.0s;
+	animation: fade-in 1.0s;
 }
+
+
