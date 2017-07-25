@@ -45,6 +45,12 @@ p {
   padding-right: 0;
 }
 
+.nogTechUsedDiv {
+	margin: 0;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 3px;
+}
+
 #nogPhase2 .section {
 	width: 100%;
 	padding: 0;
