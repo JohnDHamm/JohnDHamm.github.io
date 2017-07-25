@@ -59,7 +59,6 @@ footer.page-footer {
 
 /*TECHNOLOGY SECTION ---------------------*/
 #technology {
-  /*width: 100%;*/
   color: #ccc;
 }
 
@@ -73,9 +72,7 @@ footer.page-footer {
   width: 50px;
 }
 
-
 /*PROJECTS ------------------------*/
-
 #projectsHeader {
   color: #444;
   background: #ffe57f;
@@ -137,14 +134,9 @@ div.projDescr {
 
 
 /*TRAIL TRACKER PROJECT - PARALLAX*/
-
-
 #trailTracker h4 {
   color: #ffca28; /*amber lighten-1*/
   text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
-  /*background-color: rgba(115,114,27,0.4);*/
-  /*border: 1px solid #ffca28;*/
-  /*border-radius: 5px;*/
   font-family: "Chelsea Market";
 }
 
@@ -166,13 +158,9 @@ div.projDescr {
 }
 
 /*REBOUND PROJECT ----------------------------*/
-
 #rebound h4 {
   color: rgb(0, 151, 156);
-  /*background-color: rgba(255,255,255,0.4);*/
   text-shadow: 1px 1px 0 white;
-  /*border: 1px solid rgb(0, 151, 156);*/
-  /*border-radius: 5px;*/
 }
 
 #rebound h5 {
@@ -193,15 +181,6 @@ div.projDescr {
 }
 
 /*TEAM TIMER PROJECT ---------------------------*/
-
-#teamTimer h4 {
-  color: rgb(233,67,57);
-  background-color: rgba(255,238,56,0.4);
-  text-shadow: 1px 1px 0 #000;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
 #teamTimer h5 {
   color: white;
   text-shadow: 1px 1px 0 grey;
@@ -227,14 +206,6 @@ div.projDescr {
 }
 
 /*CADENCE PROJECT -------------------------*/
-#cadence h4 {
-  color: white;
-  background-color: rgba(91,21,20,0.5);
-  text-shadow: 1px 1px 0 rgb(50,83,127);
-  border: 1px solid white;
-  border-radius: 5px;
-}
-
 #cadence h5 {
   color: white;
   text-shadow: 1px 1px 0 grey;
@@ -257,14 +228,6 @@ img.cadenceTitleLogo {
 }
 
 /* NOG PROJECT ------------------------------------*/
-#nog h4 {
-  color: white;
-  background-color: rgba(25, 112, 22, 0.4);
-  text-shadow: 1px 1px 0 #701626;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
 #nog h5 {
   color: white;
   text-shadow: 1px 1px 0 grey;
@@ -276,7 +239,6 @@ img.cadenceTitleLogo {
 }
 
 #nog a.info {
-  /*background-color: #701626;*/
   background-color: rgba(112, 22, 38, 0.4);
   color: white;
   padding-left: 0;
