@@ -1,7 +1,7 @@
 .timerBg {
 	background: linear-gradient(rgb(255,238,56), rgb(233,67,57));
 	margin: 0;
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 }
 
 #timerIntro .section {
@@ -35,4 +35,8 @@ div.top-border {
 
 .aeroLogoDiv {
 	margin-top: 1em;
+}
+
+.timerSubtitle {
+	color: rgb(233, 67, 57);
 }

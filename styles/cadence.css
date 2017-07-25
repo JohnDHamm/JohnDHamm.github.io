@@ -1,7 +1,7 @@
 .cadenceBg {
 	background: rgb(175,183,214);
 	margin: 0;
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 }
 
 #cadenceIntro .section {
@@ -18,4 +18,8 @@
 	color: white;
   padding-left: 0;
   padding-right: 0;
+}
+
+.cadenceSubtitle {
+	color: rgb(91, 21, 20);
 }
