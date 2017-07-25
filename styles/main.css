@@ -105,7 +105,7 @@ div.projDescr {
 }
 
 .techUsedIcon {
-  margin: auto;
+  margin: 5px auto;
   height: 30px;
 }
 
@@ -142,9 +142,10 @@ div.projDescr {
 #trailTracker h4 {
   color: #ffca28; /*amber lighten-1*/
   text-shadow: 1px 1px 0 #9e9d24;  /*lime darken-3*/
-  background-color: rgba(115,114,27,0.4);
-  border: 1px solid #ffca28;
-  border-radius: 5px;
+  /*background-color: rgba(115,114,27,0.4);*/
+  /*border: 1px solid #ffca28;*/
+  /*border-radius: 5px;*/
+  font-family: "Chelsea Market";
 }
 
 #trailTracker h5 {
@@ -250,6 +251,10 @@ div.projDescr {
   color: rgb(91,21,20);
   padding-left: 0;
   padding-right: 0;
+}
+
+img.cadenceTitleLogo {
+  width: 100%;
 }
 
 /* NOG PROJECT ------------------------------------*/
