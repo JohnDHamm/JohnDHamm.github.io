@@ -1,0 +1,11 @@
+{
+  "name": "johndhammcodes.com",
+  "icons": [
+    {
+      "src": "/img/icons/jdh_favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}
