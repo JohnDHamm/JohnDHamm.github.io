@@ -76,7 +76,7 @@ h3.titleSubheader {
 
 #techIconsContainer {
 	position: relative;
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
 	height: 100px;
 	margin-bottom: 20px;
 }
@@ -150,6 +150,11 @@ h3.titleSubheader {
 .fifthTechDiv {
 	animation: techAnimFive 20.0s;
 	animation-iteration-count: infinite;
+}
+
+p.techIconLabel {
+	color: #888;
+	font-size: 1.3rem;
 }
 
 /*TECHNOLOGY SECTION ---------------------*/
