@@ -40,3 +40,9 @@ div.top-border {
 .timerSubtitle {
 	color: rgb(233, 67, 57);
 }
+
+.timerTechUsedDiv {
+	margin: 0;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 3px;
+}
