@@ -63,6 +63,13 @@ p {
 	text-decoration: underline;
 }
 
+#nogPhase2 a.gitBtn {
+	background: white;
+	color: #701626;
+	padding-left: 0;
+  padding-right: 0;
+}
+
 .boldText {
 	font-size: 1.2rem;
 	font-weight: bold;
