@@ -1,5 +1,6 @@
 .timerBg {
-	background: linear-gradient(rgb(255,238,56), rgb(233,67,57));
+	/*background: linear-gradient(rgb(255,238,56), rgb(233,67,57));*/
+	background: rgb(186, 214, 86);
 	margin: 0;
 	padding: 0 0 20px 0;
 }
@@ -26,7 +27,16 @@ div.top-border {
 	margin-bottom: 5px;
 }
 
+#timerIntro a.timerGit {
+	background-color: rgb(111,95,169);
+	/*color: rgb(111,95,169);*/
+	color: rgb(186, 214, 86);
+	padding-left: 0;
+  padding-right: 0;
+}
+
 #timerIntro a.timerOrigGit {
+	/*background-color: rgb(255,238,56);*/
 	background-color: rgb(255,238,56);
 	color: rgb(233,67,57);
   padding-left: 0;
@@ -38,7 +48,8 @@ div.top-border {
 }
 
 .timerSubtitle {
-	color: rgb(233, 67, 57);
+	/*color: rgb(233, 67, 57);*/
+	color: rgb(11,22,59);
 }
 
 .timerTechUsedDiv {
